@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependence Modelling | Dr. Vipin N</title>
+    <link>/tags/dependence-modelling/</link>
+      <atom:link href="/tags/dependence-modelling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dependence Modelling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Dr. Vipin N. All Rights Reserved.</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Dependence Modelling</title>
+      <link>/tags/dependence-modelling/</link>
+    </image>
+    
+    <item>
+      <title>On characterizations of some bivariate continuous distributions by properties of higher-degree bivariate stop-loss transforms</title>
+      <link>/publication/journal-article-3/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dependence Modelling</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;One principal aim of statistical modeling is to analyze the dependence structure that exists in a multivariate dataset. The data that are collected nowadays are highly complex to analyze the dependence structures, and it requires the construction of new models and statistical measures, which is a challenging task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On conditional lower partial moments and its applications</title>
+      <link>/publication/journal-article-2/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some properties of conditional partial moments in the context of stochastic modelling</title>
+      <link>/publication/journal-article-1/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

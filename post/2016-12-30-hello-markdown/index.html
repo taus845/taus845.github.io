@@ -21,7 +21,7 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="Dr. Vipin N">
 
   
   
@@ -44,6 +44,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -175,9 +178,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -229,9 +232,9 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="og:site_name" content="Dr. Vipin N">
   <meta property="og:url" content="/post/2016-12-30-hello-markdown/">
-  <meta property="og:title" content="A Plain Markdown Post | Academic">
+  <meta property="og:title" content="A Plain Markdown Post | Dr. Vipin N">
   <meta property="og:description" content="This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
@@ -272,12 +275,12 @@
   
   "author": {
     "@type": "Person",
-    "name": "Nelson Bighetti"
+    "name": "Dr. Vipin N"
   },
   
   "publisher": {
     "@type": "Organization",
-    "name": "Academic",
+    "name": "Dr. Vipin N",
     "logo": {
       "@type": "ImageObject",
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
@@ -301,7 +304,7 @@
 
 
 
-  <title>A Plain Markdown Post | Academic</title>
+  <title>A Plain Markdown Post | Dr. Vipin N</title>
 
 </head>
 
@@ -352,7 +355,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Dr. Vipin N</a>
     </div>
     
 
@@ -365,7 +368,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Dr. Vipin N</a>
     </div>
     
 
@@ -375,35 +378,6 @@
 
       
       <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#hero"><span>Demo</span></a>
-        </li>
-
-        
         
 
         
@@ -509,7 +483,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/courses/"><span>Teaching</span></a>
         </li>
 
         
@@ -685,7 +659,9 @@
 <li><input disabled="" type="checkbox"> Profit!</li>
 </ul>
 <p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (
-<a href="https://github.com/yihui/hugo-lithium" target="_blank" rel="noopener">hugo-lithium</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;$50 and $100&rdquo;.] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
+<a href="https://github.com/yihui/hugo-lithium" target="_blank" rel="noopener">hugo-lithium</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.</p>
+<p>$S_n = \sum_{i=1}^n X_i$</p>
+<p>^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;$50 and $100&rdquo;.] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
 <p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>ext</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
 <pre><code class="language-r">blogdown::new_post(&quot;Post Title&quot;, ext = '.Rmd')
 </code></pre>
@@ -812,13 +788,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Nelson Bighetti">
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hueb0b2b6019fa060585ee02d838e25504_153125_270x270_fill_lanczos_center_2.PNG" alt="Dr. Vipin N">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Nelson Bighetti</a></h5>
-      <h6 class="card-subtitle">Professor of Artificial Intelligence</h6>
-      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <h5 class="card-title"><a href="/">Dr. Vipin N</a></h5>
+      <h6 class="card-subtitle">Assistant Professor</h6>
+      <p class="card-text">My research interests include survival analysis, time series analysis and dependence modelling of multivariate random vectors.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -850,8 +826,8 @@
       
     
     <li>
-      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
+      <a href="https://in.linkedin.com/in/dr-vipin-n-687b033b" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
       </a>
     </li>
   
@@ -865,7 +841,7 @@
       
     
     <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+      <a href="https://scholar.google.co.in/citations?user=6uXjmmUAAAAJ&amp;hl=en" target="_blank" rel="noopener">
         <i class="ai ai-google-scholar"></i>
       </a>
     </li>
@@ -882,8 +858,25 @@
       
     
     <li>
-      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
+      <a href="https://in.linkedin.com/in/dr-vipin-n-687b033b" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-1449-7850" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
       </a>
     </li>
   
@@ -1023,26 +1016,11 @@
   
   <div class="container">
     <footer class="site-footer">
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
-  
 
   <p class="powered-by">
-    
+    © 2020 Dr. Vipin N. All Rights Reserved. 
 
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
+      
     <span class="float-right" aria-hidden="true">
       <a href="#" class="back-to-top">
         <span class="button_icon">
