@@ -248,6 +248,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+  </script>
+
 
 
   
@@ -330,35 +360,6 @@
 
       
       <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
         
 
         
@@ -563,13 +564,13 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#lesson-plan">Lesson plan</a></li>
     <li><a href="#reference">Reference</a></li>
     <li><a href="#lecture-slides-practical">Lecture Slides: Practical</a>
       <ul>
-        <li><a href="#topic-1">Topic 1</a></li>
-        <li><a href="#topic-2">Topic 2</a></li>
-        <li><a href="#topic-2-1">Topic 2</a></li>
+        <li><a href="#logistic-regression-analysis-and-associated-inference">Logistic regression analysis and associated inference</a></li>
+        <li><a href="#area-under-the-roc-curve">Area under the ROC curve</a></li>
+        <li><a href="#estimating-odds-ratios-in-presence-of-interaction">Estimating odds ratios in presence of interaction</a></li>
+        <li><a href="#model-adequacy-checking">Model Adequacy Checking</a></li>
       </ul>
     </li>
   </ul>
@@ -587,9 +588,7 @@
           <h1>MBS 504 Generalized Linear Models</h1>
 
           <div class="article-style">
-            <h2 id="lesson-plan">Lesson plan</h2>
-<p>The tentative lesson plan for the course can be found <a href="/files/lp.pdf" target="_blank">here</a>.</p>
-<h2 id="reference">Reference</h2>
+            <h2 id="reference">Reference</h2>
 <ul>
 <li><strong>Hosmer Jr, D. W., Lemeshow, S., &amp; Sturdivant, R. X. (2013). Applied logistic regression (Vol. 398). John Wiley &amp; Sons.</strong></li>
 <li><strong>Agresti, A. (2003). Categorical data analysis (Vol. 482). John Wiley &amp; Sons.</strong></li>
@@ -597,15 +596,10 @@
 </ul>
 <h2 id="lecture-slides-practical">Lecture Slides: Practical</h2>
 <p>Here you can find the practical slides related to the topics in <code>R</code>.</p>
-<h3 id="topic-1">Topic 1</h3>
-<p>
-<a href="/slides/glm/lab1/">A post</a></p>
-<h3 id="topic-2">Topic 2</h3>
-<p>
-<a href="/slides/glm/lab2/">A slide post</a></p>
-<h3 id="topic-2-1">Topic 2</h3>
-<p>
-<a href="/slides/glm/lab3/">A slide post</a></p>
+<h3 id="logistic-regression-analysis-and-associated-inference">Logistic regression analysis and associated inference</h3>
+<h3 id="area-under-the-roc-curve">Area under the ROC curve</h3>
+<h3 id="estimating-odds-ratios-in-presence-of-interaction">Estimating odds ratios in presence of interaction</h3>
+<h3 id="model-adequacy-checking">Model Adequacy Checking</h3>
 
           </div>
 
@@ -664,6 +658,8 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js" integrity="sha256-lyWCDMnMeZiXRi7Zl54sZGKYmgQs4izcT7+tKc+KUBk=" crossorigin="anonymous" title="mermaid"></script>
       
 
       
