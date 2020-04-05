@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Dr. Vipin N
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Department of Data Science, MAHE
+  url: "https://manipal.edu/doph/department-faculty/faculty-list/vipin-n/_jcr_content.html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include survival analysis, time series analysis and dependence modelling of multivariate random vectors.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Dependence modelling
+- Survival analysis
+- Time series analysis
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Staistics
+    institution: Cochin University of Science and Technology (CUSAT), Kerala, India
+    year: 2019
+    
+  - course: M.Sc in Statistics
+    institution: Cochin University of Science and Technology (CUSAT), Kerala, India
+    year: 2014
+    
+  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +44,30 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: '#contact'  # For a direct email link, use "mailto:vipinn.stats@gmail.com".
+  
+  
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://in.linkedin.com/in/dr-vipin-n-687b033b
+  
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+  link: https://scholar.google.co.in/citations?user=6uXjmmUAAAAJ&hl=en
+  
+- icon: researchgate
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://in.linkedin.com/in/dr-vipin-n-687b033b  
+  
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-1449-7850
+  
+  
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/taus845
+  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,11 +79,12 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
+
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an Assistant Professor of Statistics at Department of Data Science, Manipal Academy of Higher Education (MAHE), Karnataka, India. My research focuses on stochastic modelling of  time-to-event and time series data with applications in survival analysis, actuarial studies and income (poverty) anlaysis. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I received my PhD in Statistics from [Cochin University](http://stats.cusat.ac.in/) in 2019. My recent research works have been published in peer-reviewed journals and  acknowledged at several national and international conferences.

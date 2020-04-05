@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reliability analysis | Dr. Vipin N</title>
+    <link>/tags/reliability-analysis/</link>
+      <atom:link href="/tags/reliability-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reliability analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Dr. Vipin N. All Rights Reserved.</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Reliability analysis</title>
+      <link>/tags/reliability-analysis/</link>
+    </image>
+    
+    <item>
+      <title>On characterizations of some bivariate continuous distributions by properties of higher-degree bivariate stop-loss transforms</title>
+      <link>/publication/journal-article-3/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some properties of conditional partial moments in the context of stochastic modelling</title>
+      <link>/publication/journal-article-1/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -26,12 +26,20 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Dependence Modelling"
+    tag = "Dependence Modelling"
   
   [[content.filter_button]]
+    name = "Survival Analysis"
+    tag = "Survival Analysis"
+
+  [[content.filter_button]]
+    name = "Time Series Analysis"
+    tag = "Time Series Analysis"    
+    
+  [[content.filter_button]]
     name = "Other"
-    tag = "Demo"
+    tag = "Demo"   
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
