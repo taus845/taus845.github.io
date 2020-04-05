@@ -5,12 +5,12 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "The Accidental and Unconcious Statistician1.2"
-subtitle = ""
-
+title = "The Accidental and Unconcious Statistician"
+subtitle = "Welcome to the personal webage of Dr. Vipin N"
+align = "center"
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"

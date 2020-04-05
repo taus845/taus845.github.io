@@ -62,12 +62,12 @@ math = true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = false
+diagram = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
@@ -86,7 +86,7 @@ email = "vipinn.stats@gmail.com"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Deapartment of Data Science", city = "PSPH", region = "Manipal Academy of Higher Education (MAHE), Manipal, Karnataka, India-", postcode = "576 104", country = "India", country_code = "IN"}
+address = {street = "Dept of Data Science", city = "PSPH", region = "Manipal Academy of Higher Education (MAHE), Manipal, Karnataka, India-", postcode = "576 104", country = "India", country_code = "IN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.

@@ -21,6 +21,9 @@ menu:
     weight: 1
 ---
 
+##  Lesson plan
+
+The tentative lesson plan for the course can be found {{% staticref "files/lp.pdf" "newtab" %}}here{{% /staticref %}}.
 
 
 
@@ -35,17 +38,16 @@ menu:
 ## Lecture Slides: Practical
 Here you can find the practical slides related to the topics in `R`.
 
-### Logistic regression analysis and associated inference
+### Topic 1
+[A post]({{< ref "/slides/GLM/lab1.md" >}})
+
+### Topic 2
+[A slide post]({{< ref "/slides/GLM/lab2.md" >}})
 
 
-### Area under the ROC curve
+### Topic 2
+[A slide post]({{< ref "/slides/GLM/lab3.md" >}})
 
-
-### Estimating odds ratios in presence of interaction
-
-
-
-###  Model Adequacy Checking 
 
 
 

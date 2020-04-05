@@ -24,10 +24,11 @@ interests:
 - Dependence modelling
 - Survival analysis
 - Time series analysis
+- Causal Inference
 
 education:
   courses:
-  - course: PhD in Staistics
+  - course: PhD in Statistics
     institution: Cochin University of Science and Technology (CUSAT), Kerala, India
     year: 2019
     
@@ -85,6 +86,6 @@ email: ""
 
 ---
 
-I am an Assistant Professor of Statistics at Department of Data Science, Manipal Academy of Higher Education (MAHE), Karnataka, India. My research focuses on stochastic modelling of  time-to-event and time series data with applications in survival analysis, actuarial studies and income (poverty) anlaysis. 
+I am an Assistant Professor of Statistics at [Department of Data Science](https://manipal.edu/doph/department-faculty/department-list/data-science.html), Manipal Academy of Higher Education (MAHE), Karnataka, India. My research focuses on stochastic modelling of  time-to-event and time series data with identifying its applications in survival analysis, actuarial studies and income (poverty) anlaysis. 
 
-I received my PhD in Statistics from [Cochin University](http://stats.cusat.ac.in/) in 2019. My recent research works have been published in peer-reviewed journals and  acknowledged at several national and international conferences.
+I received PhD in Statistics from [Cochin University of Science and Technology (CUSAT)](http://stats.cusat.ac.in/) Kerala in 2019. My recent research works have been published in peer-reviewed journals and  acknowledged at several national and international conferences.

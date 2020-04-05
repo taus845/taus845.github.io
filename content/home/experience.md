@@ -17,9 +17,10 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
-  title = "Research Scholar"
-  company = "Departmet of Statistcs, CUSAT"
+  title = "Doctoral Research Scholar"
+  company = "Departmet of Statistics, CUSAT"
   company_url = "http://stats.cusat.ac.in/"
   location = "Cochin, Kerala, India"
   date_start = "2014-08-01"
@@ -28,7 +29,7 @@ date_format = "Jan 2006"
   
   
   * Guide: [Dr. S. M Sunoj](http://stats.cusat.ac.in/sunoj.html),  Professor, Department of Statistics, CUSAT
-  * Areas: Reliability modelling and Distribution theory
+  * Areas: Reliability Modelling and Distribution Theory
   * Title of the Thesis: Bivariate and Conditional Partial Moments:
 Some Properties and Applications
   
