@@ -1,2 +1,2 @@
 # taus845.github.io
-Personal website of Dr. Vipin N
+Personal website of
