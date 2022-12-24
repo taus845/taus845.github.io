@@ -24,7 +24,7 @@ interests:
 - Dependence modelling
 - Survival analysis
 - Time series analysis
-- Causal Inference
+
 
 education:
   courses:
